@@ -6,6 +6,7 @@
 package character;
 
 import environment.ApplicationStarter;
+import java.awt.Dimension;
 
 /**
  *
@@ -17,7 +18,7 @@ public class Character {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        ApplicationStarter.run("Medusa", new CharacterEnviroment());
+        ApplicationStarter.run(new String[0], "Stan", new Dimension(3000, 1700), new CharacterEnviroment());
     }
     
 }

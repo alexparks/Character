@@ -15,8 +15,11 @@ import java.awt.event.MouseEvent;
  * @author Alex Parks
  */
 class CharacterEnviroment extends Environment {
+    
+    private Stan Stan;
 
     public CharacterEnviroment() {
+        Stan = new Stan(1500, 300, 500, 500);
     }
 
     @Override
@@ -46,6 +49,10 @@ class CharacterEnviroment extends Environment {
 
     @Override
     public void paintEnvironment(Graphics graphics) {
+        if (Stan != null) {
+            Stan.draw(graphics);
+            
+        }
         
     }
     
