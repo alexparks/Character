@@ -51,7 +51,8 @@ public class Stan {
 //</editor-fold>
 
         //hat
-        graphics.drawRect(x + 3, y + 135, 400, 25);
+        graphics.setColor(Color.red);
+        graphics.fillRect(x + 0, y + 125, 400, 35);
 
         //mouth
 //       graphics.drawArc(x, y, x, x, x, x);
